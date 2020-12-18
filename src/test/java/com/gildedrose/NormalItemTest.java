@@ -17,6 +17,9 @@ class NormalItemTest {
         app.calculateNextDay();
         assert(app.items[0].sellIn == 9);
         assert(app.items[0].quality == 19);
+
+
+
     }
 
     @Test

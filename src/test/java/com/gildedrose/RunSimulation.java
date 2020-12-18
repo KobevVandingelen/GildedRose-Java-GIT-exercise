@@ -13,6 +13,7 @@ public class RunSimulation {
         Item[] items = new Item[] {
                 ItemFactory.getInstance().createItem("+5 Dexterity Vest", 10, 20), //
                 ItemFactory.getInstance().createItem("Aged Brie", 2, 0), //
+                ItemFactory.getInstance().createItem("Chain vest" , 10,20), //
                 ItemFactory.getInstance().createItem("Elixir of the Mongoose", 5, 7), //
                 ItemFactory.getInstance().createItem("Sulfuras, Hand of Ragnaros", 0, 80), //
                 ItemFactory.getInstance().createItem("Sulfuras, Hand of Ragnaros", -1, 80),
@@ -20,6 +21,7 @@ public class RunSimulation {
                 ItemFactory.getInstance().createItem("Backstage passes to a TAFKAL80ETC concert", 10, 49),
                 ItemFactory.getInstance().createItem("Backstage passes to a TAFKAL80ETC concert", 5, 49),
                 ItemFactory.getInstance().createItem("Conjured Mana Cake", 3, 6)
+
         };
 
         GildedRose app = new GildedRose(items);
